@@ -12,4 +12,5 @@ This repository is a test repository for a modification of `analysistest.Run` to
 
 - https://github.com/golang/go/issues/46041
 - https://github.com/golang/go/issues/37054
+- https://go-review.googlesource.com/c/tools/+/506275
 - https://go-review.googlesource.com/c/tools/+/318709
