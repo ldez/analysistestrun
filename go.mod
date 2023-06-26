@@ -14,3 +14,6 @@ require (
 	golang.org/x/sys v0.9.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+// use the fork on golang.org/x/tools
+replace golang.org/x/tools => github.com/ldez/tools v0.0.0-20230626143527-0a284346df5d
