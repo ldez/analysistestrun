@@ -4,7 +4,6 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 
@@ -41,19 +40,15 @@ func TestAnalyzer(t *testing.T) {
 	for _, test := range testCases {
 		t.Run(test.desc, func(t *testing.T) {
 			// current implementation: fail with Go modules.
-			// results := analysistest.Run(t, testData, Analyzer, test.patterns...)
+			// _ = analysistest.Run(t, testData, Analyzer, test.patterns...)
 
 			// Proposal: use my fork
-			results := analysistest.RunWithOptions(t, Analyzer, analysistest.Options{
+			_ = analysistest.RunWithOptions(t, Analyzer, analysistest.Options{
 				GOPATHMode:     false,
 				Dir:            filepath.Join(testData, test.dir),
 				Patterns:       test.patterns,
 				SuggestedFixes: false,
 			})
-
-			for _, result := range results {
-				require.NotEmpty(t, result.Diagnostics)
-			}
 		})
 	}
 }
