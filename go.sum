@@ -1,5 +1,5 @@
-github.com/ldez/tools v0.0.0-20230708061818-9e718c447c4b h1:aGMu2zNTNVAyawCZPxySGFP+oixsf5U5ukjgxtOvvQM=
-github.com/ldez/tools v0.0.0-20230708061818-9e718c447c4b/go.mod h1:UJwyiVBsOA2uwvK/e5OY3GTpDUJriEd+/YlqAwLPmyM=
+github.com/ldez/tools v0.0.0-20230708095651-0aee1d89cb58 h1:SrdEYeFS+wCBH7057Pe4EcBWD3oCe5J+rwgJrpM8isE=
+github.com/ldez/tools v0.0.0-20230708095651-0aee1d89cb58/go.mod h1:UJwyiVBsOA2uwvK/e5OY3GTpDUJriEd+/YlqAwLPmyM=
 golang.org/x/mod v0.11.0 h1:bUO06HqtnRcc/7l71XBe4WcqTZ+3AH1J59zWDDwLKgU=
 golang.org/x/mod v0.11.0/go.mod h1:iBbtSCu2XBx23ZKBPSOrRkjjQPZFPuis4dIYUhu/chs=
 golang.org/x/sync v0.3.0 h1:ftCYgMx6zT/asHUrPw8BLLscYtGznsLAnjq5RH9P66E=

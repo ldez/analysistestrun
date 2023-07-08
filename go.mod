@@ -10,4 +10,4 @@ require (
 )
 
 // use the fork on golang.org/x/tools
-replace golang.org/x/tools => github.com/ldez/tools v0.0.0-20230708061818-9e718c447c4b
+replace golang.org/x/tools => github.com/ldez/tools v0.0.0-20230708095651-0aee1d89cb58
