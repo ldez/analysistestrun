@@ -6,7 +6,7 @@ This repository is a test repository for a modification of `analysistest.Run` to
 
 - a simple module
 - a Go workspace with several modules
-- a "bad design" module with a child module
+- a module with a child module
 
 ## Related to
 
